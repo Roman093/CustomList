@@ -1,0 +1,14 @@
+C:\Users\A-level\source\repos\customList2\customList2\bin\Debug\customList2.exe.config
+C:\Users\A-level\source\repos\customList2\customList2\bin\Debug\customList2.exe
+C:\Users\A-level\source\repos\customList2\customList2\bin\Debug\customList2.pdb
+C:\Users\A-level\source\repos\customList2\customList2\obj\Debug\customList2.csprojAssemblyReference.cache
+C:\Users\A-level\source\repos\customList2\customList2\obj\Debug\customList2.csproj.CoreCompileInputs.cache
+C:\Users\A-level\source\repos\customList2\customList2\obj\Debug\customList2.exe
+C:\Users\A-level\source\repos\customList2\customList2\obj\Debug\customList2.pdb
+D:\Курсы\CustomList-master\customList2\bin\Debug\customList2.exe.config
+D:\Курсы\CustomList-master\customList2\bin\Debug\customList2.exe
+D:\Курсы\CustomList-master\customList2\bin\Debug\customList2.pdb
+D:\Курсы\CustomList-master\customList2\obj\Debug\customList2.csprojAssemblyReference.cache
+D:\Курсы\CustomList-master\customList2\obj\Debug\customList2.csproj.CoreCompileInputs.cache
+D:\Курсы\CustomList-master\customList2\obj\Debug\customList2.exe
+D:\Курсы\CustomList-master\customList2\obj\Debug\customList2.pdb
