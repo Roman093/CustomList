@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CustomList;
 
 namespace CustomList
 {
@@ -11,48 +12,28 @@ namespace CustomList
     {
         static void Main(string[] args)
         {
-        }
-    }
-    public class Node
-    {
-        public Node(Notebook element, Node nextElement = null)
-        {
-            Element = element;
-            NextElement = nextElement;
-        }
-        public Notebook Element { get; set; }
-        public Node NextElement { get; set; }
-    }
-    public class CustomList : IEnumerable, ICustomLink
-    {
-        public Node Head { get; private set; }
-        public Node Tail { get; private set; }
-        public Notebook this[int index] => throw new NotImplementedException();
 
-        public void Add(Notebook value)
-        {
-            throw new NotImplementedException();
-        }
+            var notebook = new CustomList();
 
-        public void Delete(Notebook value)
-        {
-            throw new NotImplementedException();
-        }
+            var name = new List<string>();
+            var Igor = new Notebook(1, "Igor");
+            var Vasia = new Notebook(2, "Vasia");
+            var Kurlyk = new Notebook(3, "Kurlyk");
 
-        public IEnumerator GetEnumerator()
-        {
-            throw new NotImplementedException();
+            notebook.Add(Igor);
+            notebook.Add(Vasia);
+            notebook.Add(Kurlyk);
+
+            var pupkin = notebook[1];
+            
+            notebook.Delete(pupkin);
+
         }
-    }
-    public class Notebook
-    {
-        public int SerialNumber { get; set; }
-        public string Name { get; set; }
-    }
-    public interface ICustomLink
-    {
-        void Add(Notebook value);
-        Notebook this[int index] { get; }
-        void Delete(Notebook value);
     }
 }
+
+
+
+
+
+

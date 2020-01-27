@@ -1,0 +1,7 @@
+D:\Курсы\CustomList-master\customList2\bin\Debug\customList2.exe.config
+D:\Курсы\CustomList-master\customList2\bin\Debug\customList2.exe
+D:\Курсы\CustomList-master\customList2\bin\Debug\customList2.pdb
+D:\Курсы\CustomList-master\customList2\obj\Debug\customList.csprojAssemblyReference.cache
+D:\Курсы\CustomList-master\customList2\obj\Debug\customList.csproj.CoreCompileInputs.cache
+D:\Курсы\CustomList-master\customList2\obj\Debug\customList2.exe
+D:\Курсы\CustomList-master\customList2\obj\Debug\customList2.pdb
