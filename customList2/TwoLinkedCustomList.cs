@@ -9,8 +9,12 @@ using System.Threading.Tasks;
 
 namespace customList2
 {
-    public class TwoLinkedCustomList<T> : CustomList.CustomList
+    public class TwoLinkedCustomList : CustomList.CustomList
     {
+        //public TwoLinkedCustomList(CustomList.CustomList Add, CustomList.CustomList AddFirst) : base(Add, AddFirst)
+        //{
+        //}
+
         public new TwoNode Head;
         public new TwoNode Tail;
         public new int Counter;
@@ -42,7 +46,7 @@ namespace customList2
             Tail = twonode;
             Counter++;
         }
-        public void AddFirst(Notebook value)
+        public new void AddFirst(Notebook value)
         {
             TwoNode twonode = new TwoNode(value, null);
             TwoNode Tail = Head;
@@ -89,35 +93,36 @@ namespace customList2
             return false;
         }
         public int Coun { get { return Counter; } }
-        public bool IsEmpty { get { return Counter == 0; } }
+        //public bool IsEmpty { get { return Counter == 0; } }
 
-    }
-    IEnumerator IEnumerable.GetEnumerator()
-    {
-        return ((IEnumerable)this).GetEnumerator();
-    }
- 
 
-    IEnumerator IEnumerable.GetEnumerator()
-    {
-        TwoNode current = Head;
-        while (current != null)
+        IEnumerator  GetEnumerator()
         {
-            yield return current;
-            current = current.nextElement;
+            return ((IEnumerable)this).GetEnumerator();
+        }
+
+       public IEnumerator StartEnumerator()
+        {
+            TwoNode current = Head;
+            while (current != null)
+            {
+                yield return current;
+                current = current.nextElement;
+            }
+        }
+
+        public IEnumerable BackEnumerator()
+        {
+            TwoNode current = Tail;
+            while (current != null)
+            {
+                yield return current;
+                current = current.element; 
+            }
         }
     }
+}  
 
-    public IEnumerable BackEnumerator()
-    {
-        TwoNode current = Tail;
-        while (current != null)
-        {
-            yield return current;
-            current = current.element;
-        }
-    }
-}
 
   
     

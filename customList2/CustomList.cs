@@ -78,7 +78,7 @@ namespace CustomList
                 }
             }
         }
-        public void AppendFirst(Notebook value)
+        public void AddFirst(Notebook value)
         {
             Node node = new Node(value, null);
             node.NextElement = Head;

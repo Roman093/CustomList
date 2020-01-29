@@ -9,8 +9,6 @@ namespace customList2
 {
     public class TwoNode : Node
     {
-        //public TwoNode<T> nextElement;
-
         public TwoNode(Notebook element, Node nextElement) : base(element, nextElement)
         {
             NextElement = nextElement;
