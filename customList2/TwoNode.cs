@@ -11,10 +11,11 @@ namespace customList2
     {
         public TwoNode(Notebook element, Node nextElement) : base(element, nextElement)
         {
-            NextElement = nextElement;
-            element = Element;
+            //NextElement = nextElement;
+            //element = Element;
+            //}
+            //public TwoNode nextElement{get; set;}
+            //public Notebook element { get; set; }
         }
-        public TwoNode nextElement{get; set;}
-        public Notebook element { get; set; }
-    }
+}
 }
